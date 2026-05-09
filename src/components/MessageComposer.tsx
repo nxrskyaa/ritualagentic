@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Loader2, Check } from 'lucide-react'
 import { useRotatingPlaceholder } from '@/hooks/useRotatingPlaceholder'
 import { useAgentFeed } from '@/hooks/useAgentFeed'
-import { FEED_PLACEHOLDERS, MAX_MESSAGE_LENGTH } from '@/lib/constants'
+import { FEED_PLACEHOLDERS, MAX_MESSAGE_LENGTH } from '@/lib/constants.ts'
 import type { Toast, FeedEntry } from '@/types'
-import { generateId } from '@/lib/utils'
+import { generateId } from '@/lib/utils.ts'
 
 interface MessageComposerProps {
   walletConnected: boolean

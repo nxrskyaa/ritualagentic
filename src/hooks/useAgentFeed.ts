@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { getPublicClient, getWalletClient } from './useViemClient'
-import { CONTRACT_ABI, CONTRACT_ADDRESS } from '@/lib/constants'
+import { CONTRACT_ABI, CONTRACT_ADDRESS } from '@/lib/constants.ts'
 import type { FeedEntry } from '@/types'
 
 // Convert contract message to FeedEntry

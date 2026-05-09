@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 import { ExternalLink, CheckCircle, Loader2, Heart } from 'lucide-react'
 import { useProfiles } from '@/hooks/useProfiles'
-import { getAddressGradient, truncateAddress, timeAgo } from '@/lib/utils'
-import { RITUAL_CHAIN_CONFIG } from '@/lib/constants'
+import { getAddressGradient, truncateAddress, timeAgo } from '@/lib/utils.ts'
+import { RITUAL_CHAIN_CONFIG } from '@/lib/constants.ts'
 import type { FeedEntry as FeedEntryType } from '@/types'
 
 interface FeedEntryProps {

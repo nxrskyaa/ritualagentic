@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ExternalLink, Copy, Check, Globe, Database, Radio, Trash2 } from 'lucide-react'
-import { CONTRACT_ADDRESS, RITUAL_CHAIN_CONFIG } from '@/lib/constants'
+import { CONTRACT_ADDRESS, RITUAL_CHAIN_CONFIG } from '@/lib/constants.ts'
 
 interface SettingsModalProps {
   isOpen: boolean

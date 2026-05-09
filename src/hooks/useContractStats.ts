@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { getPublicClient } from './useViemClient'
-import { CONTRACT_ABI, CONTRACT_ADDRESS } from '@/lib/constants'
+import { CONTRACT_ABI, CONTRACT_ADDRESS } from '@/lib/constants.ts'
 
 export function useContractStats() {
   const [totalMessages, setTotalMessages] = useState(0)

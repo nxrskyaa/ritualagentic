@@ -1,5 +1,5 @@
 import { useWalletAddress } from '@/hooks/useViemClient'
-import { getAddressGradient, truncateAddress } from '@/lib/utils'
+import { getAddressGradient, truncateAddress } from '@/lib/utils.ts'
 
 interface WalletCardProps {
   className?: string

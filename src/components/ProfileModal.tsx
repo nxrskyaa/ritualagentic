@@ -2,8 +2,8 @@ import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Edit2, Check, ExternalLink, MessageCircle, Heart } from 'lucide-react'
 import { useProfiles } from '@/hooks/useProfiles'
-import { getAddressGradient, truncateAddress, timeAgo } from '@/lib/utils'
-import { RITUAL_CHAIN_CONFIG } from '@/lib/constants'
+import { getAddressGradient, truncateAddress, timeAgo } from '@/lib/utils.ts'
+import { RITUAL_CHAIN_CONFIG } from '@/lib/constants.ts'
 import type { FeedEntry } from '@/types'
 
 interface ProfileModalProps {

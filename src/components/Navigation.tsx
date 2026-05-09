@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Loader2, Settings } from 'lucide-react'
 import { useWalletAddress } from '@/hooks/useViemClient'
-import { getAddressGradient, truncateAddress } from '@/lib/utils'
+import { getAddressGradient, truncateAddress } from '@/lib/utils.ts'
 import SettingsModal from './SettingsModal'
 
 export default function Navigation() {

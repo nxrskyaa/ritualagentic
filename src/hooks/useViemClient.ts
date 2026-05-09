@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react'
 import { createPublicClient, createWalletClient, custom, http, publicActions } from 'viem'
-import { RITUAL_CHAIN_CONFIG } from '@/lib/constants'
+import { RITUAL_CHAIN_CONFIG } from '@/lib/constants.ts'
 
 // Public client (read-only, no wallet needed)
 export function getPublicClient() {
